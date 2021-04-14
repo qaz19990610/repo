@@ -11,6 +11,6 @@ git log
 
 git push origin master
 cd /home
-tar -czvf ~/backup${DATE} .tar.gz  * /git++
+tar -czvf ~/backup${DATE} .tar.gz  /git++
 
 
