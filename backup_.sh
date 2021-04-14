@@ -7,7 +7,7 @@ git add .
 read -p "commit what ? : " commit1
 git status
 git commit -m  ${commit1}
-git log
+#git log
 
 git push origin master
 cd /home
