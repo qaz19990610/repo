@@ -3,7 +3,6 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 DATE=$(date +%m%d)
-BackUp=/home
 touch ${DATE}
 cd /git++
 git add .
@@ -16,5 +15,5 @@ git commit -m " ${DATE}backup"
 
 git push origin master
 cd /home
-${BackUp}=tar -cvf backup${DATE}.tar /git++
+tar -cvf backup${DATE}.tar /git++
 
